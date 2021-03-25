@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <title>Beatlon List</title>
+  </head>
+  <body>
+    <div class="beatlon">
+      <div class="beatlon__header">
+        <h2 class="beatlon__title">Beatlon Javascript</h2>
+        <ul class="beatlon__header-ul">
+          <li id="sort-place" class="sort"><i class="fas fa-sort">Place</i></li>
+          <li id="sort-name" class="sort"><i class="fas fa-sort">Name</i></li>
+          <li id="sort-hit" class="sort"><i class="fas fa-sort">Hit</i></li>
+          <li id="sort-shots" class="sort"><i class="fas fa-sort">Shots</i></li>
+        </ul>  
+      </div>
+
+     <ul class="beatlon__list beatlons">
+
+      </ul>
+    </div>
+    <form class="beatlon__search search">
+      <input
+        class="beatlon__elment-search"
+        type="text"
+        placeholder="search Beatlon list"
+        name="search"
+      />
+    </form>
+    <script src="app.js"></script>
+  </body>
+</html>
